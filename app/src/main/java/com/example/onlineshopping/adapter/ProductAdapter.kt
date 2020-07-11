@@ -15,6 +15,7 @@ class ProductAdapter(var context: Context, var data: ArrayList<Product>) :
 
     RecyclerView.Adapter<ProductAdapter.MyViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
+        // test
         val root = LayoutInflater.from(parent.context).inflate(R.layout.row_all_product, parent, false)
         return MyViewHolder(root)
     }
